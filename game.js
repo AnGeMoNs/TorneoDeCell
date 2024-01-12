@@ -4,13 +4,13 @@ export class Game extends Phaser.Scene {
     }
     preload() {
       //With the prelorad method, we load all the resources.
-      this.load.image('background', '/background.png');
-      this.load.image('sun','/sun.png');
-      this.load.image('clouds','/clouds.png');
-      this.load.image('gameover', '/gameover.png');
-      this.load.image('plataforma','/plataforma.png');
-      this.load.image('platform','/platform.png');
-      this.load.image('madera','/madera.png');
+      this.load.image('background', 'background.png');
+      this.load.image('sun','sun.png');
+      this.load.image('clouds','clouds.png');
+      this.load.image('gameover', 'gameover.png');
+      this.load.image('plataforma','plataforma.png');
+      this.load.image('platform','platform.png');
+      this.load.image('madera','madera.png');
       this.load.audio('punchaudio', 'super-punch-mma.mp3');
       this.load.audio('provocacion', 'Provocacion.mp3');
       this.load.audio('sonidomadera', 'sonidomadera.mp3');
